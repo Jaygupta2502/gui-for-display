@@ -28,10 +28,10 @@ class Page3:
         self.root.title("Mandatory Information")
         self.root.geometry("1024x600")
         self.root.configure(bg="#BEBEBE")
-        def get_pas(event):
-            print(f'x:{event.x}y:{event.y}')
+        # def get_pas(event):
+        #     print(f'x:{event.x}y:{event.y}')
 
-        self.root.bind('<Motion>', get_pas)
+        # self.root.bind('<Motion>', get_pas)
         self.mandatory_label = tk.Label(self.root, text="Mandatory Information", font=("calibri", 20, "bold"), bg="#BEBEBE")
         self.mandatory_label.place(x=410,y=0)
         self.recent_diet_label = tk.Label(self.root, text="Health Parameter (if any)", font=("calibri", 15), bg="#BEBEBE")

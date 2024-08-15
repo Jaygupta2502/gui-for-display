@@ -20,7 +20,7 @@ class page1:
         self.bg_label.place(x=303,y=180)
 
         # Create the MIT-ADT logo
-        self.logo_image = Image.open("mit_adt.webp")  # Replace "mit_adt_logo.png" with your image file
+        self.logo_image = Image.open("Mit_ADT.webp")  # Replace "mit_adt_logo.png" with your image file
         self.logo_photo = ImageTk.PhotoImage(self.logo_image)
         self.logo_label = tk.Label(self.root, image=self.logo_photo)
         self.logo_label.place(x=0, y=0)
